@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B706AC92670D01500B7A921 /* FuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B706AC72670D01500B7A921 /* FuelViewController.swift */; };
+		5B706ACA2670D01500B7A921 /* Fuel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B706AC82670D01500B7A921 /* Fuel.storyboard */; };
 		C0A675CC2670C8AF007948EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675CB2670C8AF007948EA /* AppDelegate.swift */; };
 		C0A675CE2670C8AF007948EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675CD2670C8AF007948EA /* SceneDelegate.swift */; };
 		C0A675D02670C8AF007948EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675CF2670C8AF007948EA /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B706AC72670D01500B7A921 /* FuelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelViewController.swift; sourceTree = "<group>"; };
+		5B706AC82670D01500B7A921 /* Fuel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fuel.storyboard; sourceTree = "<group>"; };
 		C0A675C82670C8AF007948EA /* latihanGitDulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = latihanGitDulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A675CB2670C8AF007948EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A675CD2670C8AF007948EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B706AC62670D01500B7A921 /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+				5B706AC72670D01500B7A921 /* FuelViewController.swift */,
+				5B706AC82670D01500B7A921 /* Fuel.storyboard */,
+			);
+			path = Fuel;
+			sourceTree = "<group>";
+		};
 		C0A675BF2670C8AF007948EA = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				C0A675E82670CF8B007948EA /* Access */,
-				C0A675CB2670C8AF007948EA /* AppDelegate.swift */,
+				5B706AC62670D01500B7A921 /* Fuel */,
 				C0A675CD2670C8AF007948EA /* SceneDelegate.swift */,
+				C0A675CB2670C8AF007948EA /* AppDelegate.swift */,
 				C0A675CF2670C8AF007948EA /* ViewController.swift */,
 				C0A675D12670C8AF007948EA /* Main.storyboard */,
 				C0A675D42670C8B0007948EA /* Assets.xcassets */,
@@ -137,6 +151,7 @@
 			files = (
 				C0A675D82670C8B0007948EA /* LaunchScreen.storyboard in Resources */,
 				C0A675D52670C8B0007948EA /* Assets.xcassets in Resources */,
+				5B706ACA2670D01500B7A921 /* Fuel.storyboard in Resources */,
 				C0A675D32670C8AF007948EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +167,7 @@
 				C0A675EA2670CF8B007948EA /* AccessControl.swift in Sources */,
 				C0A675CC2670C8AF007948EA /* AppDelegate.swift in Sources */,
 				C0A675CE2670C8AF007948EA /* SceneDelegate.swift in Sources */,
+				5B706AC92670D01500B7A921 /* FuelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73800BC2670D04D0055956E /* Cockpit in Resources */ = {isa = PBXBuildFile; fileRef = A73800BB2670D04D0055956E /* Cockpit */; };
 		C0A675CC2670C8AF007948EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675CB2670C8AF007948EA /* AppDelegate.swift */; };
 		C0A675CE2670C8AF007948EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675CD2670C8AF007948EA /* SceneDelegate.swift */; };
 		C0A675D02670C8AF007948EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675CF2670C8AF007948EA /* ViewController.swift */; };
 		C0A675D32670C8AF007948EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A675D12670C8AF007948EA /* Main.storyboard */; };
 		C0A675D52670C8B0007948EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A675D42670C8B0007948EA /* Assets.xcassets */; };
 		C0A675D82670C8B0007948EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A675D62670C8B0007948EA /* LaunchScreen.storyboard */; };
+		C0A675EA2670CF8B007948EA /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A675E92670CF8B007948EA /* AccessControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A73800BB2670D04D0055956E /* Cockpit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cockpit; path = ../../../../.Trash/Cockpit; sourceTree = "<group>"; };
 		C0A675C82670C8AF007948EA /* latihanGitDulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = latihanGitDulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A675CB2670C8AF007948EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A675CD2670C8AF007948EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C0A675D42670C8B0007948EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0A675D72670C8B0007948EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0A675D92670C8B0007948EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A675E92670CF8B007948EA /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,13 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A73800B22670CE6A0055956E /* Cockpit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cockpit;
-			sourceTree = "<group>";
-		};
 		C0A675BF2670C8AF007948EA = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +60,10 @@
 		C0A675CA2670C8AF007948EA /* latihanGitDulu */ = {
 			isa = PBXGroup;
 			children = (
+				C0A675E82670CF8B007948EA /* Access */,
 				C0A675CB2670C8AF007948EA /* AppDelegate.swift */,
 				C0A675CD2670C8AF007948EA /* SceneDelegate.swift */,
-				A73800B22670CE6A0055956E /* Cockpit */,
+				A73800BB2670D04D0055956E /* Cockpit */,
 				C0A675CF2670C8AF007948EA /* ViewController.swift */,
 				C0A675D12670C8AF007948EA /* Main.storyboard */,
 				C0A675D42670C8B0007948EA /* Assets.xcassets */,
@@ -73,6 +71,14 @@
 				C0A675D92670C8B0007948EA /* Info.plist */,
 			);
 			path = latihanGitDulu;
+			sourceTree = "<group>";
+		};
+		C0A675E82670CF8B007948EA /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				C0A675E92670CF8B007948EA /* AccessControl.swift */,
+			);
+			path = Access;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A675D82670C8B0007948EA /* LaunchScreen.storyboard in Resources */,
+				A73800BC2670D04D0055956E /* Cockpit in Resources */,
 				C0A675D52670C8B0007948EA /* Assets.xcassets in Resources */,
 				C0A675D32670C8AF007948EA /* Main.storyboard in Resources */,
 			);
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A675D02670C8AF007948EA /* ViewController.swift in Sources */,
+				C0A675EA2670CF8B007948EA /* AccessControl.swift in Sources */,
 				C0A675CC2670C8AF007948EA /* AppDelegate.swift in Sources */,
 				C0A675CE2670C8AF007948EA /* SceneDelegate.swift in Sources */,
 			);

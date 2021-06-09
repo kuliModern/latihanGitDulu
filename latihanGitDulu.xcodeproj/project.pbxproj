@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A73800B22670CE6A0055956E /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cockpit;
+			sourceTree = "<group>";
+		};
 		C0A675BF2670C8AF007948EA = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +65,7 @@
 			children = (
 				C0A675CB2670C8AF007948EA /* AppDelegate.swift */,
 				C0A675CD2670C8AF007948EA /* SceneDelegate.swift */,
+				A73800B22670CE6A0055956E /* Cockpit */,
 				C0A675CF2670C8AF007948EA /* ViewController.swift */,
 				C0A675D12670C8AF007948EA /* Main.storyboard */,
 				C0A675D42670C8B0007948EA /* Assets.xcassets */,
